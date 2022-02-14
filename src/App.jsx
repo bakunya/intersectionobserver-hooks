@@ -13,7 +13,7 @@ const LastElement = memo(({ itm }) => {
         ref,
         options, 
         useCallback((observer, entries, ref) => {
-            alert('Last element is visible on screen')
+            alert(`The cute Miku-chan is visible on your screen`)
         }, [])
     )
 
@@ -21,7 +21,28 @@ const LastElement = memo(({ itm }) => {
 })
 
 const App = () => {
-    const [arr, _setarr] = useState(Array.from({ length: 15 }).map(() => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.'))
+    const [arr, _setarr] = useState([
+        'Saber',
+        'Akame',
+        'Sagiri',
+        'Yuno Gasai',
+        'Asuna Yuuki',
+        'Rin Tohsaka',
+        'Rias Gremory',
+        'Hinata Hyuga',
+        'Kurisu Makise',
+        'Lucy Heartfilia',
+        'Ochaco Uraraka',
+        'Zero Two',
+        'Kaori Miyazono',
+        'Komari Koshigaya',
+        'Gawr Gura',
+        'Miku Nakano',
+        'Remu-chan!!',
+        'Hatsune Miku (Miku-chan!!)',
+        'Kizuna Ai',
+        'Ayunda Risu',
+    ])
     
     return (
         <main className="min-h-screen bg-dark-400 grid place-content-center">
@@ -38,7 +59,7 @@ const App = () => {
             <br />
             <br />
             <h2>Alert Example</h2>
-            <p>Alert will appear when last element is visible on screen</p>
+            <p>Alert will appear when 'Hatsune Miku' element is visible on screen</p>
             <br />
             <br />
             {

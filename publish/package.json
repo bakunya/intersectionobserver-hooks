@@ -1,0 +1,29 @@
+{
+    "name": "@bakunya/intersectionobserver-hooks",
+    "version": "0.1.1",
+    "description": "An easy to use intersection observer hooks based on IntersectionObserver API.",
+    "author": "bakunya",
+    "license": "MIT",
+    "homepage": "https://github.com/bakunya/intersectionobserver-hooks#readme",
+    "bugs": {
+      "url": "https://github.com/bakunya/intersectionobserver-hooks/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bakunya/intersectionobserver-hooks.git"
+    },
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "keywords": [
+      "react",
+      "hooks",
+      "react-hooks",
+      "custom hooks",
+      "intersection",
+      "infinite scrolling",
+      "intersection observer",
+      "useIntersectionObserver"
+    ]
+}

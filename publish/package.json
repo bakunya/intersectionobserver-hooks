@@ -1,6 +1,6 @@
 {
     "name": "@bakunya/intersectionobserver-hooks",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "An easy to use intersection observer hooks based on IntersectionObserver API.",
     "author": "bakunya",
     "license": "MIT",

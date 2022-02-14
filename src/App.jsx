@@ -46,7 +46,7 @@ const App = () => {
     
     return (
         <main className="min-h-screen bg-dark-400 grid place-content-center">
-            <h2>Infinite scrolling example: <a href="https://github.com/bakunya/intersectionobserver-hooks/examples/infinite-scrolling">available in my github</a></h2>
+            <h2>Infinite scrolling example: <a href="https://github.com/bakunya/intersectionobserver-hooks/tree/main/examples/infinite-scrolling">available in my github</a></h2>
             <br />
             <br />
             <h2>Support Developer</h2>

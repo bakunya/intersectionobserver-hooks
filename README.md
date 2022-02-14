@@ -47,7 +47,7 @@ return <p ref={ref} className='m-5 my-[50vh'>{itm}</p>
 ```
 
 ## Another Example
-### [You can check another example in here](https://github.com/bakunya/intersectionobserver-hooks)
+### [You can check another example in here](https://github.com/bakunya/intersectionobserver-hooks/tree/main/examples)
 
 ## License
 This project under MIT License.
